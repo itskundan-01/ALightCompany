@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Light Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">A Light Company</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#customize">Customize</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to A Light Company</h1>
+                <h4>Smart, Sustainable, and Stylish Lighting</h4>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <div class="products-content">
+                <h2 class="topic">Our Products</h2>
+                <div class="product-list">
+                    <div class="product-item">
+                        <img src="https://smuf.in/wp-content/uploads/2023/02/9W-LED-Bulb-B22-Base.jpg" alt="Product 1">
+                        <p>LED Bulbs</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="smartbulb.png" alt="Product 2">
+                        <p>Smart LED Bulbs</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.jdmagicbox.com/quickquotes/images_main/led-ceiling-lights-2182532188-sd8z3a99.jpg" alt="Product 3">
+                        <p>False Ceiling Lights</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://arihantstarled.com/wp-content/uploads/2021/05/warm-white.jpg" alt="Product 4">
+                        <p>LED Strip Lights</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://image.made-in-china.com/2f0j00dIGqTnYRCeoj/Diameter-70mm-360-Beam-Angle-Round-Ceiling-LED-Tube-Pendent-Tubular-Light-with-CE-RoHS.webp" alt="Product 6">
+                        <p>LED Tube Lights</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="decorative.png" alt="Product 5">
+                        <p>Decorative Lights</p>
+                    </div>
+                    
+                    <div class="product-item">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/4/AK/EI/EA/79606103/12w-rechargeable-led-bulb-500x500.jpg" alt="Product 7">
+                        <p>Rechargeable LED Bulbs</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://www.kuberindustries.co.in/uploads/kuberindustries/products/kuber-industries-diwali-lights--diwali-string-light-for-dcor--lights-for-christmas--lights-for-navra-4217084184361716_m.jpg" alt="Product 8">
+                        <p>Occasional Lightings</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="customize" id="customize">
+            <div class="customize-content">
+                <h2 class="topic">Customize Your Own Bulb Design</h2>
+                <p>Choose your preferred designs and patterns to create a unique bulb that fits your style.</p>
+                <form>
+                    <div class="customize-sections">
+                        <div class="customize-section">
+                            <h3>Product Type</h3>
+                            <div class="slider">
+                                <button type="button" class="prev" onclick="prevSlide('product-type')">&#10094;</button>
+                                <div class="slides" id="product-type">
+                                    <div class="slide">
+                                        <img src="https://www.jiomart.com/images/product/original/494526519/philips-ace-bright-12w-crystal-white-6500k-b22-led-bulb-product-images-o494526519-p607518990-2-202401251512.jpg?im=Resize=(420,420)" alt="B22 LED" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>B22 LED</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://m.media-amazon.com/images/I/21v15npAdIL._AC_UF350,350_QL80_.jpg" alt="Tube Light" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Tube Light</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://5.imimg.com/data5/JH/DO/ZZ/ANDROID-79714169/product-jpeg-500x500.jpg" alt="False Ceiling Light" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>False Ceiling Light</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="next" onclick="nextSlide('product-type')">&#10095;</button>
+                            </div>
+                            
+                        </div>
+                        <div class="customize-section">
+                            <h3>Pattern/Design</h3>
+                            <div class="slider">
+                                <button type="button" class="prev" onclick="prevSlide('pattern-design')">&#10094;</button>
+                                <div class="slides" id="pattern-design">
+                                    <div class="slide">
+                                        <img src="https://t4.ftcdn.net/jpg/04/87/19/19/360_F_487191968_R5ViMX9Ay391yshMVkE5UgUWrJi9LtLo.jpg" alt="Design 1" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 1</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://t3.ftcdn.net/jpg/08/09/21/24/360_F_809212451_JZP2LVKzuObM7RFUx0PRweZ3RB6ArmPv.jpg" alt="Design 2" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 2</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://img.freepik.com/free-vector/organic-flat-abstract-element-pattern_23-2148950504.jpg" alt="Design 3" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 3</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://cdn.pixabay.com/photo/2016/06/24/05/31/background-1476706_960_720.jpg" alt="Design 3" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 4</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://thumbs.dreamstime.com/b/neon-floral-pattern-bright-bold-design-incorporating-colors-elements-dynamic-eye-catching-look-close-up-phot-324631352.jpg" alt="Design 3" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 5</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.istockphoto.com/id/1400259848/vector/kids-drawing-pencil-hand-drawn-doodles-funny-sketches-animals-house-clouds-recent-vector.jpg?s=612x612&w=0&k=20&c=olaww-2TGni3rpkEUrl3GQpEE-mwSUu0quEFHWh9wTE=" alt="Design 3" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 6</p>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="https://media.istockphoto.com/id/925276162/vector/cartoon-superhero-mask-seamless-pattern-background-vector.jpg?s=612x612&w=0&k=20&c=JDJWYsoOILHKCNwKpWVYgDOp0dZ-vFVpT5US_3OsBvc=" alt="Design 3" style="width: 100px; height: 100px; object-fit: cover;">
+                                        <p>Design 7</p>
+                                    </div>
+                                </div>
+                                <button type="button" class="next" onclick="nextSlide('pattern-design')">&#10095;</button>
+                            </div>
+                        </div>
+                        <div class="customize-section">
+                            <h3>Watts/Capacity</h3>
+                            <div class="list-view">
+                                <label>
+                                    <input type="radio" name="watts-capacity" value="9 Watts">
+                                    9 Watts
+                                </label>
+                                <label>
+                                    <input type="radio" name="watts-capacity" value="10 Watts">
+                                    10 Watts
+                                </label>
+                                <label>
+                                    <input type="radio" name="watts-capacity" value="20 Watts">
+                                    15 Watts
+                                </label>
+                                <label>
+                                    <input type="radio" name="watts-capacity" value="20 Watts">
+                                    20 Watts
+                                </label>
+                                <label>
+                                    <input type="radio" name="watts-capacity" value="20 Watts">
+                                    25 Watts
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send Request">
+                </form>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="topic">About Us</h2>
+                <p>A Light Company is a forward-thinking, customer-centric business dedicated to providing high-quality lighting solutions that not only brighten your spaces but also contribute to a sustainable future. We are committed to reducing electronic waste, offering eco-friendly options, and providing exceptional customer service.</p>
+                <h3 class="topic">Our Mission</h3>
+                <p>Our mission is to lead the lighting industry with innovative designs, sustainable practices, and unparalleled customer satisfaction. We aim to deliver top-quality lighting solutions that are both environmentally friendly and cost-effective, ensuring our customers always receive the best value for their money.</p>
+            </div>
+        </section>
+        <section class="features" id="services">
+            <div class="features-content">
+                <h2 class="topic">Product Features</h2>
+                <ul>
+                    <li><strong>Variable Brightness:</strong> Our lights come with adjustable brightness settings, allowing you to create the perfect ambiance in any room.</li>
+                    <li><strong>Lifetime Warranty:</strong> Every light bulb from A Light Company comes with a 2-year standard warranty. After the second year, if your bulb fails, simply return it to the retailer to receive a discount on your next purchase.</li>
+                    <li><strong>Discount on Replacement:</strong> Customers who return a fused bulb after the <b>2-year standard warranty</b> period are<b> eligible for a 10-20% discount</b> on their next purchase from A Light Company.</li>
+                    <li><strong>Competitive Pricing:</strong> We offer high-quality lights at market-competitive prices.</li>
+                    <li><strong>Sustainable Design:</strong> Our lights are designed with sustainability in mind.</li>
+                    <li><strong>Wide Range of Products:</strong> We offer a diverse range of lighting solutions to meet every need.</li>
+                    <li><strong>Innovative Designs:</strong> Our design team is constantly working to bring you the latest in lighting trends.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h2 class="topic">Contact Us</h2>
+                <p>For more information about our products or to find a retailer near you, please visit our website at <a href="http://www.alightcompany.com">www.alightcompany.com</a> or contact our customer service team at <a href="mailto:contact@alightcompany.com">contact@alightcompany.com</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 A Light Company. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to handle selection
+            const selectionData = {
+                productType: null,
+                patternDesign: null
+            };
+        
+            document.querySelectorAll(".product-type-option").forEach(option => {
+                option.addEventListener("click", function() {
+                    selectionData.productType = this.dataset.type;
+                    this.classList.add("selected"); // Add a selected style
+                });
+            });
+        
+            document.querySelectorAll(".design-pattern-option").forEach(option => {
+                option.addEventListener("click", function() {
+                    selectionData.patternDesign = this.dataset.design;
+                    this.classList.add("selected"); // Add a selected style
+                });
+            });
+        
+            // Handle submit button click
+            document.getElementById("submitSelection").addEventListener("click", function() {
+                if (selectionData.productType && selectionData.patternDesign) {
+                    // Send request with selected data (simulated here)
+                    fakeSubmitRequest(selectionData)
+                        .then(response => alert("Request submitted successfully!"))
+                        .catch(error => alert("Submission failed. Please try again."));
+                } else {
+                    alert("Please select both a product type and a pattern design.");
+                }
+            });
+        });
+        
+        // Fake submit request function (replace with real fetch request as needed)
+        function fakeSubmitRequest(data) {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    const isSuccessful = true; // Simulate success
+                    isSuccessful ? resolve() : reject();
+                }, 1000);
+            });
+        }
+        </script>
+        
+    <script src="script.js"></script>
+</body>
+</html>
